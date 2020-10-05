@@ -1,8 +1,7 @@
 var express = require('express');
 var app = express();
-var path = require('path');
+const PORT = process.env.PORT || 5000
 
-
-app.use(express.static('public'))
-
-app.listen(8080);
+express()
+  .use(express.static(path.join(__dirname, 'public')))
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
