@@ -184,40 +184,6 @@ input[type="submit"]:hover {
   padding: 5px 0;
 }
 
-/*section-image*/
-.projects-image {
-  list-style: none;
-  width: 100%;
-}
-
-.projects-image li {
-  display: block;
-  float: left;
-  width: 25%;
-}
-
-.photo {
-  width: 50px;
-  margin: 50px;
-  overflow: hidden;
-}
-
-.photo img {
-  opacity: 0.7;
-  width: 100%;
-  height: auto;
-  transform: scale(1.15);
-  transition: transform 0.5s, opacity 0.5s;
-  -webkit-transform: scale(1.15);
-  -ms-transform: scale(1.15);
-  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-}
-
-.photo img:hover {
-  opacity: 1;
-  transform: scale(1.03);
-}
-
 /*contact*/
 .contact-form {
   width: 60%;
@@ -342,7 +308,7 @@ footer p {
 /* class para las imagenes introductorias */
 .contenedor-imagen-presentacion-logo {
   display: inline-block;
-  width: 400px;
+  width: 900px;
   height: 100px;
   margin: 0 20px;
 }
@@ -355,6 +321,7 @@ footer p {
   }
 
 .imagen-presentacion {
+  margin-top: 30px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
